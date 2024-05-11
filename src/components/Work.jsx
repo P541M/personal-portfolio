@@ -76,7 +76,7 @@ const Work = () => {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
             <div className="absolute inset-0 flex items-center justify-center px-4">
               <span className="text-white text-lg md:text-2xl font-semibold text-center">
-                Mancala Game Simulator
+                CLI Mancala
               </span>
             </div>
           </a>
