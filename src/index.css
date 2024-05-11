@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1f2022;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+span,
+.primary-color {
+  background-image: linear-gradient(to right, #86a6e7, #145ef3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-primary-color {
+  background-image: linear-gradient(to right, #145ef3, #306fee);
+}
