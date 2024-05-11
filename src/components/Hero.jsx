@@ -33,10 +33,10 @@ const Hero = () => {
         id="home"
       >
         <div className="flex-col my-auto mx-auto">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold text-[#E6EBF5]">
-            Hey! I'm Eleazar, a
+          <p className="md:text-6xl sm:text-5xl text-xl font-bold text-[#E6EBF5]">
+            Howdy! I'm Eleazar, a
           </p>
-          <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
+          <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-6">
             <TypeAnimation
               sequence={[
                 "Front-end Dev",
@@ -57,9 +57,9 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="flex justify-center items-center">
+          <div className="justify-center items-center">
             <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
-              Seeking S/F Internships!
+              <i>Design Meets Function</i>
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-7 my-7 text-gray-600 ">
