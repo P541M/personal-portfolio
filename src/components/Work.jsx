@@ -41,7 +41,7 @@ const Work = () => {
 
           {/* project two here 1 COL VERSION*/}
           <a
-            href="/"
+            href="https://github.com/P541M/Comparative-Analysis-Infant-Names"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative h-48 overflow-hidden rounded-xl shadow-lg md:h-80"
