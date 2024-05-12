@@ -29,33 +29,38 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleNav} className="block md:hidden">
+      <div
+        onClick={handleNav}
+        className="block md:hidden fixed top-4 right-4"
+      >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
       <div
         className={
           nav
-            ? "z-10 text-[#E6EBF5] fixed h-full left-0 top-0 w-[50%] border-r border-r-gray-900 bg-[#1F2022]  duration-500  ease-in-out"
-            : "z-10 fixed left-[-100%] top-0  h-full ease-in-out duration-500"
+            ? "z-10 text-[#E6EBF5] fixed h-full left-0 top-0 w-[50%] bg-[#1F2022] duration-500 ease-in-out shadow-lg"
+            : "z-10 fixed left-[-100%] top-0 h-full ease-in-out duration-500"
         }
       >
-        <h1 className="text-3xl primary-color m-4">Eleazar</h1>
+        <div className="flex justify-between items-center">
+          <h1 className="text-3xl primary-color m-4">Eleazar</h1>
+        </div>
         <ul className="p-8 text-2xl">
           <li className="p-2">
-            <a href="#home">Home</a>
+            <a href="#home" onClick={handleNav}>Home</a>
           </li>
           <li className="p-2">
-            <a href="#about">About</a>
+            <a href="#about" onClick={handleNav}>About</a>
           </li>
           <li className="p-2">
-            <a href="#work">Work</a>
+            <a href="#work" onClick={handleNav}>Work</a>
           </li>
           <li className="p-2">
-            <a href="#experience">Experience</a>
+            <a href="#experience" onClick={handleNav}>Experience</a>
           </li>
           <li className="p-2">
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={handleNav}>Contact</a>
           </li>
         </ul>
       </div>

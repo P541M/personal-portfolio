@@ -10,7 +10,7 @@ const Footer = () => {
       <p className=" text-gray-500">That's it!</p>
       <button
         onClick={scrollToTop}
-        className="p-1 px-4  bg-[#202327] text-white rounded-xl hover:bg-gray-600 transition-colors duration-200"
+        className="p-1 px-4  bg-gray-600 text-white rounded-xl hover:bg-gray-700 transition-colors duration-200"
       >
         Back to Top
       </button>

@@ -41,7 +41,7 @@ const Hero = () => {
       >
         <div className="flex-col my-auto mx-auto">
           <p className="md:text-6xl sm:text-5xl text-xl font-bold text-[#E6EBF5]">
-            Howdy! I'm Eleazar, a
+            Hello! I'm Eleazar, a
           </p>
           <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-6">
             <TypeAnimation
