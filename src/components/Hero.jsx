@@ -20,9 +20,16 @@ const Hero = () => {
       }
     };
 
-    document.addEventListener("mousemove", handleMouseMove);
+    const isMobile = window.matchMedia("(pointer: coarse)").matches;
+
+    if (!isMobile) {
+      document.addEventListener("mousemove", handleMouseMove);
+    }
+
     return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
+      if (!isMobile) {
+        document.removeEventListener("mousemove", handleMouseMove);
+      }
     };
   }, []);
 

@@ -13,7 +13,7 @@ const Work = () => {
             <h2 className="text-2xl lg:text-3xl text-[#E6EBF5] mt-5">
               My <span>Projects</span>
             </h2>
-            <p className="text-gray-500">My latest projects!</p>
+            <p className="text-gray-500">My latest projects! <i>More on GitHub</i></p>
           </div>
         </div>
 
