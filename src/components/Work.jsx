@@ -1,8 +1,9 @@
 import React from "react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+//import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
 
 const Work = () => {
   return (
@@ -20,10 +21,31 @@ const Work = () => {
         <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:gap-6 xl:gap-8">
           {/* project one here 2 COL VERSION*/}
           <a
-            href="https://github.com/P541M/Pool-Game-Simulator"
+            href="https://p541m.github.io/savory-sips/"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative h-48 overflow-hidden rounded-xl shadow-lg md:col-span-2 md:h-80"
+          >
+            <img
+              src={project5}
+              loading="lazy"
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover object-center filter blur-sm transition duration-200 group-hover:scale-105 brightness-50"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+            <div className="absolute inset-0 flex items-center justify-center px-4">
+              <span className="text-white text-lg md:text-2xl font-semibold text-center">
+                Savory Sips
+              </span>
+            </div>
+          </a>
+
+          {/* project two here 1 COL VERSION*/}
+          <a
+            href="https://github.com/P541M/Pool-Game-Simulator"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative h-48 overflow-hidden rounded-xl shadow-lg md:h-80"
           >
             <img
               src={project1}
@@ -39,12 +61,12 @@ const Work = () => {
             </div>
           </a>
 
-          {/* project two here 1 COL VERSION*/}
+          {/* project three here 1 COL VERSION*/}
           <a
             href="https://github.com/P541M/Comparative-Analysis-Infant-Names"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative h-48 overflow-hidden rounded-xl shadow-lg md:h-80"
+            className="group relative h-48 overflow-hidden rounded-lg shadow-xl md:h-80"
           >
             <img
               src={project2}
@@ -55,28 +77,7 @@ const Work = () => {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
             <div className="absolute inset-0 flex items-center justify-center px-4">
               <span className="text-white text-lg md:text-2xl font-semibold text-center">
-                Comparative Analysis of Infant Names
-              </span>
-            </div>
-          </a>
-
-          {/* project three here 1 COL VERSION*/}
-          <a
-            href="https://github.com/P541M/Mancala-Game-CLI"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative h-48 overflow-hidden rounded-lg shadow-xl md:h-80"
-          >
-            <img
-              src={project3}
-              loading="lazy"
-              alt=""
-              className="absolute inset-0 h-full w-full object-cover object-center filter blur-sm transition duration-200 group-hover:scale-105 brightness-50"
-            />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-            <div className="absolute inset-0 flex items-center justify-center px-4">
-              <span className="text-white text-lg md:text-2xl font-semibold text-center">
-                CLI Mancala
+              Comparative Analysis of Infant Names
               </span>
             </div>
           </a>
