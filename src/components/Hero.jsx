@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import profilepic from "../assets/logo.png";
-import resume from "../assets/resume.pdf"; //
+import resume from "../assets/Resume.pdf"; //
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
@@ -46,11 +46,7 @@ const Hero = () => {
           <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-6">
             <TypeAnimation
               sequence={[
-                "Front-end Dev",
-                1000,
-                "Back-end Dev",
-                1000,
-                "Web Designer",
+                "Full-Stack Dev",
                 1000,
                 "Video Editor",
                 1000,
