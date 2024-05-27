@@ -61,8 +61,8 @@ const Hero = () => {
             />
           </h1>
           <div className="justify-center items-center">
-            <p className="md:text-5xl sm:text-4xl text-xl font-bold text-gray-500">
-              <i>Design Meets Function</i>
+            <p className="md:text-4xl sm:text-4xl text-xl font-bold text-gray-500">
+              <i>Coding Without Limits</i>
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-7 my-7 text-gray-600 ">
