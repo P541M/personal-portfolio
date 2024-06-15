@@ -13,11 +13,11 @@ const Experience = () => {
           <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#86A6E7] via-[#113A8D] to-[#145EF3] rounded-3xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
           <div className="relative bg-[#202327] p-4 rounded-3xl">
             <p className="text-xl">
-              <span>MediaMatchup</span>
+              <span>Logistics Firm</span>
             </p>
-            <p className="text-[#E6EBF5]">Founder and CEO</p>
+            <p className="text-[#E6EBF5]">Fullstack Developer & Business Analyst Intern</p>
             <p className="text-gray-500 font-semibold">
-              June 2021 - August 2023 | International
+              May 2024 - Present
             </p>
           </div>
         </div>
@@ -25,11 +25,23 @@ const Experience = () => {
         {/* Job two here */}
         <div className="mb-[20px] text-[#E6EBF5] bg-[#202327] p-4 rounded-3xl max-w-[300px] sm:max-w-[600px] mx-auto shadow-lg">
           <p className="text-xl">
-            <span>Freelance</span>
+            <span>MediaMatchup</span>
           </p>
-          <p className="text-[#E6EBF5]">Digital Content Editor</p>
+          <p className="text-[#E6EBF5]">Founder & CEO</p>
           <p className="text-gray-500 font-semibold">
-            January 2017 - January 2023 | International
+          Jun 2021 - Aug 2023
+          </p>
+        </div>
+
+
+        {/* Job two here */}
+        <div className="mb-[20px] text-[#E6EBF5] bg-[#202327] p-4 rounded-3xl max-w-[300px] sm:max-w-[600px] mx-auto shadow-lg">
+          <p className="text-xl">
+            <span>Videna Visuals</span>
+          </p>
+          <p className="text-[#E6EBF5]">Digital Content Editor & Digital Graphic Designer</p>
+          <p className="text-gray-500 font-semibold">
+            Jan 2017 - Jan 2023
           </p>
         </div>
 
@@ -40,7 +52,7 @@ const Experience = () => {
           </p>
           <p className="text-[#E6EBF5]">Podcast Sound Engineer</p>
           <p className="text-gray-500 font-semibold">
-            January 2022 - May 2022 | Hamilton, ON (Remote)
+            Jan 2022 - May 2022
           </p>
         </div>
 
@@ -53,18 +65,7 @@ const Experience = () => {
             Digital Contect Producter & Front-End Developer
           </p>
           <p className="text-gray-500 font-semibold">
-            January 2022 - May 2022 | Waterloo, ON (Remote)
-          </p>
-        </div>
-
-        {/* Job five here */}
-        <div className="mb-[20px] text-[#E6EBF5] bg-[#202327] p-4 rounded-3xl max-w-[300px] sm:max-w-[600px] mx-auto shadow-lg">
-          <p className="text-xl">
-            <span>Freelance</span>
-          </p>
-          <p className="text-[#E6EBF5]">Digital Graphic Designer</p>
-          <p className="text-gray-500 font-semibold">
-            January 2016 - August 2020 | International
+            Jan 2022 - May 2022
           </p>
         </div>
 
@@ -75,7 +76,7 @@ const Experience = () => {
           </p>
           <p className="text-[#E6EBF5]">Crew Member</p>
           <p className="text-gray-500 font-semibold">
-            June 2019 - August 2019 | Markham, ON
+            Jun 2019 - Aug 2019
           </p>
         </div>
       </div>

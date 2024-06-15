@@ -18,11 +18,11 @@ const About = () => {
         <div>
           <div className="p-2">
             <div className="text-[#E6EBF5] my-3">
-              <h3 className="text-4xl font-semibold mb-5">
+              <h3 className="text-4xl font-bold mb-5">
                 About <span>Me</span>
               </h3>
-              <p className="text-justify leading-7  mx-auto">
-                Hey there! I'm Psalm <span>Eleazar</span> Videna (Eh-lee-azar)
+              <p className="text-justify leading-7  mx-auto font-medium">
+                Hey there! I'm Psalm <span>Eleazar</span> Gamilo Videna (call me Ellie!)
                 and welcome to my site! I'm a passionate software engineering
                 student based in the vibrant Greater Toronto Area. I specialize
                 in full stack development, enjoying both crafting beautiful,

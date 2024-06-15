@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import profilepic from "../assets/logo.png";
-import resume from "../assets/Resume.pdf"; //
+import resume from "../assets/Resume.pdf";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
@@ -41,9 +41,9 @@ const Hero = () => {
       >
         <div className="flex-col my-auto mx-auto">
           <p className="md:text-6xl sm:text-5xl text-xl font-bold text-[#E6EBF5]">
-            Hello! I'm Eleazar, a
+            Hey! I'm Eleazar, a
           </p>
-          <h1 className="md:text-6xl sm:text-5xl text-3xl font-bold md:py-6">
+          <h1 className="md:text-6xl sm:text-5xl text-3xl font-semibold md:py-5">
             <TypeAnimation
               sequence={[
                 "Full-Stack Dev",
@@ -60,12 +60,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="justify-center items-center">
-            <p className="md:text-4xl sm:text-4xl text-xl font-bold text-gray-500">
-              <i>Coding Without Limits</i>
-            </p>
-          </div>
-          <div className="text-5xl flex justify-start gap-7 my-7 text-gray-600 ">
+          <div className="text-5xl flex justify-start gap-7 my-5 text-gray-600 ">
             <a
               className="hover:text-gray-700 transition-colors duration-200"
               href="https://www.linkedin.com/in/pevidena/"
@@ -92,15 +87,15 @@ const Hero = () => {
             <div>
               <a
                 href={resume}
-                title="Download CV"
+                title="Resume"
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer" // Security measure
-                className="w-[195px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg
-                    font-bolt text-[#E6EBF5] transition-all duration-200 bg-primary-color font-pj rounded-xl
+                className="w-[125px] h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-lg
+                    font-semibold text-[#E6EBF5] transition-all duration-200 bg-primary-color font-pj rounded-xl
                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
               >
-                Download CV
+                Resume
               </a>
             </div>
           </div>
