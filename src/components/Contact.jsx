@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="p-6 mr-2 bg-[#0B0C0E]/40 rounded-xl flex flex-col justify-around shadow-lg">
             <h1 className="text-4xl sm:text-5xl text-[#E6EBF5]">
-              Contact <span>Me</span>
+              Get In <span>Touch</span>
             </h1>
             <p className="text-normal text-lg text-gray-500 mt-2">
               Let's connect on LinkedIn <br /> or send me an Email!

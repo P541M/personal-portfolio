@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,17 +7,26 @@
 
 body {
   background-color: #1f2022;
-  font-family: "Inter","Montserrat", sans-serif;
+  font-family: "Inter", "Montserrat", sans-serif;
   font-weight: 800;
+  @apply tracking-wide;
 }
 
 span,
 .primary-color {
-  background-image: linear-gradient(to right, #86a6e7, #145ef3);
+  background-image: linear-gradient(to right, #86a6e7, #14f3d5);
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .bg-primary-color {
-  background-image: linear-gradient(to right, #145ef3, #306fee);
+  background-image: linear-gradient(to right, #0ce9cb, #14b4f3);
+}
+
+:root {
+  scroll-padding-top: 5rem;
+}
+
+section {
+  scroll-padding-top: 5rem;
 }

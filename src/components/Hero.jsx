@@ -1,52 +1,53 @@
-import React, { useRef, useEffect } from "react";
-import profilepic from "../assets/logo.png";
+// import React, { useRef, useEffect } from "react";
+import React from "react";
+// import profilepic from "../assets/logo.png";
 import resume from "../assets/Resume.pdf";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
-  const imageRef = useRef(null);
+  // const imageRef = useRef(null);
 
-  useEffect(() => {
-    const handleMouseMove = (event) => {
-      if (imageRef.current) {
-        const { clientX, clientY } = event;
-        const { left, top, width, height } =
-          imageRef.current.getBoundingClientRect();
-        const x = (clientX - left - width / 2) / 20;
-        const y = (clientY - top - height / 2) / 20;
+  // useEffect(() => {
+  //   const handleMouseMove = (event) => {
+  //     if (imageRef.current) {
+  //       const { clientX, clientY } = event;
+  //       const { left, top, width, height } =
+  //         imageRef.current.getBoundingClientRect();
+  //       const x = (clientX - left - width / 2) / 20;
+  //       const y = (clientY - top - height / 2) / 20;
 
-        imageRef.current.style.transform = `rotateY(${x}deg) rotateX(${-y}deg)`;
-      }
-    };
+  //       imageRef.current.style.transform = `rotateY(${x}deg) rotateX(${-y}deg)`;
+  //     }
+  //   };
 
-    const isMobile = window.matchMedia("(pointer: coarse)").matches;
+  //   const isMobile = window.matchMedia("(pointer: coarse)").matches;
 
-    if (!isMobile) {
-      document.addEventListener("mousemove", handleMouseMove);
-    }
+  //   if (!isMobile) {
+  //     document.addEventListener("mousemove", handleMouseMove);
+  //   }
 
-    return () => {
-      if (!isMobile) {
-        document.removeEventListener("mousemove", handleMouseMove);
-      }
-    };
-  }, []);
+  //   return () => {
+  //     if (!isMobile) {
+  //       document.removeEventListener("mousemove", handleMouseMove);
+  //     }
+  //   };
+  // }, []);
 
   return (
     <div>
       <div
-        className="my-7 sm:my-0 max-w-[1200px] h-auto mx-auto flex flex-col-reverse sm:flex-row justify-center align-center"
+        className="my-7 sm:my-0 max-w-[1200px] h-[550px] mx-auto flex flex-col-reverse sm:flex-row justify-center align-center text-center"
         id="home"
       >
         <div className="flex-col my-auto mx-auto">
-          <p className="md:text-6xl sm:text-5xl text-xl font-bold text-[#E6EBF5]">
-            Hey! I'm Eleazar, a
+          <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#E6EBF5]">
+            Hi! I'm Eleazar, a
           </p>
-          <h1 className="md:text-6xl sm:text-5xl text-3xl font-semibold md:py-5">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl py-3 md:py-4 lg:py-5 font-semibold">
             <TypeAnimation
               sequence={[
-                "Full-Stack Dev",
+                "Fullstack Dev",
                 1000,
                 "Video Editor",
                 1000,
@@ -60,7 +61,8 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="text-5xl flex justify-start gap-7 my-5 text-gray-600 ">
+
+          <div className="text-5xl flex justify-center gap-7 my-5 text-gray-600 ">
             <a
               className="hover:text-gray-700 transition-colors duration-200"
               href="https://www.linkedin.com/in/pevidena/"
@@ -101,14 +103,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="my-auto">
+        {/* <div className="my-auto">
           <img
             ref={imageRef}
             className="w-[300px] sm:w-[500px] mx-auto h-auto drop-shadow-lg transition-transform duration-300 ease-out"
             src={profilepic}
             alt="profile pic"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -8,16 +8,13 @@ import project6 from "../assets/project6.png";
 
 const Work = () => {
   return (
-    <div className="py-6 max-w-[1200px] mx-auto" id="work">
+    <div className="py-10 max-w-[1200px] mx-auto" id="work">
       <div className="mx-auto px-4 md:px-8">
         <div className="mb-4 flex items-center justify-between">
           <div className="flex flex-col gap-4">
-            <h2 className="text-2xl lg:text-3xl text-[#E6EBF5] mt-5">
-              My <span>Projects</span>
+            <h2 className="text-3xl lg:text-4xl text-[#E6EBF5] mt-5 font-bold">
+              My Latest <span>Projects</span>!
             </h2>
-            <p className="text-gray-500">
-              My latest projects! <i>More on GitHub</i>
-            </p>
           </div>
         </div>
 
