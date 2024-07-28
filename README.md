@@ -1,5 +1,4 @@
 # Portfolio V1!
-Not much to say here, check it out!
 
 ## Let’s Get in Touch!
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:videna.psalmeleazar@gmail.com)
