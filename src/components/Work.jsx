@@ -84,7 +84,7 @@ const Work = () => {
 
           {/* project four here 2 COL VERSION*/}
           <a
-            href="https://p541m.github.io/Metric-Imperial-Converter/"
+            href="https://p541m.github.io/metric-imperial-converter/"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative h-48 overflow-hidden rounded-xl shadow-lg md:col-span-2 md:h-80 mb-7"
